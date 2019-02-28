@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.andrios.youtube" name="YouTube" version="1.0.1" provider-name="AndriOS">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Aplicación de YouTube para CosmOS</summary>
+		<description lang="en">Disfruta del contenido de YouTube directamente en CosmOS</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/asvilatuna/youtube-ui</source>
+		<website>http://andrios.000webhostapp.com/addons</website>
+		<email>asvilatuna@uce.edu.ec</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>Interfaz mejorada</news>
+	</extension>
+</addon>
